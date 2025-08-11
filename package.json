@@ -1,0 +1,29 @@
+{
+  "name": "sdr-humanizado-whatsapp",
+  "version": "1.0.0",
+  "description": "SDR humanizado para WhatsApp com gestão de sprints e Kanban",
+  "main": "scripts/gitproject-universal.js",
+  "scripts": {
+    "test": "node scripts/testar-sdr.js",
+    "demo": "node scripts/testar-sdr.js",
+    "start": "node scripts/gitproject-universal.js"
+  },
+  "keywords": [
+    "sdr",
+    "whatsapp",
+    "kanban",
+    "sprints",
+    "gitproject",
+    "n8n",
+    "supabase"
+  ],
+  "author": "Equipe CoreAIT",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
