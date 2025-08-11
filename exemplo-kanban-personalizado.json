@@ -1,0 +1,70 @@
+{
+  "kanban_personalizado": {
+    "colunas": [
+      {
+        "nome": "📋 Ideias",
+        "cor": "#F3E5F5",
+        "ordem": 1,
+        "limite_wip": null
+      },
+      {
+        "nome": "🎯 Planejado",
+        "cor": "#E3F2FD",
+        "ordem": 2,
+        "limite_wip": 8
+      },
+      {
+        "nome": "⚡ Desenvolvimento",
+        "cor": "#E8F5E8",
+        "ordem": 3,
+        "limite_wip": 4
+      },
+      {
+        "nome": "🔍 Code Review",
+        "cor": "#FFF8E1",
+        "ordem": 4,
+        "limite_wip": 3
+      },
+      {
+        "nome": "🧪 Testes",
+        "cor": "#FFF3E0",
+        "ordem": 5,
+        "limite_wip": 2
+      },
+      {
+        "nome": "🚀 Deploy",
+        "cor": "#FCE4EC",
+        "ordem": 6,
+        "limite_wip": 1
+      },
+      {
+        "nome": "✅ Concluído",
+        "cor": "#E1F5FE",
+        "ordem": 7,
+        "limite_wip": null
+      }
+    ]
+  },
+  "kanban_simples": {
+    "colunas": [
+      {
+        "nome": "A Fazer",
+        "cor": "#FFEB3B",
+        "ordem": 1,
+        "limite_wip": null
+      },
+      {
+        "nome": "Fazendo",
+        "cor": "#4CAF50",
+        "ordem": 2,
+        "limite_wip": 3
+      },
+      {
+        "nome": "Feito",
+        "cor": "#2196F3",
+        "ordem": 3,
+        "limite_wip": null
+      }
+    ]
+  }
+}
