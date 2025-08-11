@@ -1,0 +1,81 @@
+{
+  "projeto": {
+    "nome": "SDR Humanizado WhatsApp",
+    "versao": "1.0",
+    "descricao": "SDR humanizado para WhatsApp com N8N, Supabase e Evolution API",
+    "responsavel_padrao": "equipe-dev",
+    "fuso_horario": "America/Sao_Paulo"
+  },
+  "cronograma": {
+    "arquivo": "../DOCUMENTACAO_TECNICA_FASE1.md",
+    "formato": "markdown"
+  },
+  "sprints": {
+    "duracao_dias": 14,
+    "prefixo": "Sprint",
+    "capacidade_pontos": 25,
+    "inicio_projeto": "2025-08-12"
+  },
+  "kanban": {
+    "colunas": [
+      {
+        "nome": "Backlog",
+        "cor": "#E3F2FD",
+        "ordem": 1,
+        "limite_wip": null
+      },
+      {
+        "nome": "A Fazer",
+        "cor": "#FFF3E0",
+        "ordem": 2,
+        "limite_wip": 5
+      },
+      {
+        "nome": "Em Progresso",
+        "cor": "#E8F5E8",
+        "ordem": 3,
+        "limite_wip": 3
+      },
+      {
+        "nome": "Em Revisão",
+        "cor": "#FFF8E1",
+        "ordem": 4,
+        "limite_wip": 2
+      },
+      {
+        "nome": "Concluído",
+        "cor": "#E1F5FE",
+        "ordem": 5,
+        "limite_wip": null
+      }
+    ],
+    "auto_mover_cards": true,
+    "notificacoes": true
+  },
+  "gitproject": {
+    "url_base": "https://api.gitproject.com",
+    "workspace_id": "${GITPROJECT_WORKSPACE_ID}",
+    "auto_backup": true,
+    "metodologia": "scrum"
+  },
+  "pontuacao": {
+    "fibonacci": [1, 2, 3, 5, 8, 13],
+    "horas_por_ponto": 4,
+    "ajuste_prioridade": {
+      "alta": 1,
+      "media": 0,
+      "baixa": -1
+    }
+  },
+  "templates": {
+    "objetivo_sprint": "Implementar {principais_funcionalidades} e funcionalidades relacionadas",
+    "descricao_card": "**Entregável:** {entregavel}\n\n**Sprint:** {sprint}\n\n**Estimativa:** {pontos} pontos",
+    "checklist_padrao": [
+      "Analisar requisitos",
+      "Implementar funcionalidade",
+      "Escrever testes",
+      "Revisar código",
+      "Validar entregável"
+    ]
+  }
+}
